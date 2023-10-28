@@ -1,0 +1,20 @@
+const contact=()=>{
+    var content=document.querySelector("#content")
+    const form= document.createElement("form")
+    
+    const nameInput = document.createElement("input");
+    nameInput.type = "text"; // Set the input type to "text"
+    nameInput.placeholder = "Enter your name";
+
+    const Number = document.createElement("input");
+    Number.type = "number"; // Set the input type to "text"
+    Number.placeholder = "Enter your number";
+
+    const Mail = document.createElement("input");
+    Mail.type = "email"; // Set the input type to "text"
+    nameInput.placeholder = "Enter your mail-id";
+    form.appendChild(nameInput)
+    form.appendChild(Number)
+    form.appendChild(Mail)
+    content.appendChilc(form)
+}
