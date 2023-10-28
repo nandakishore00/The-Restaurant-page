@@ -8,35 +8,36 @@ const d2=document.createElement('div')
 const d3=document.createElement('div')
 d1.setAttribute('id','home-btn')
 d2.setAttribute('id','contact-btn')
-d3.setAttribute('id','menu-btn')
+
 d1.classList.add('tab')
 d2.classList.add('tab')
-d3.classList.add('tab')
-d1.innerContent='Home'
-d2.innerContent='Contact'
-d3.innerContent='Menu'
-d1.addEventListener('click',()=>{
-    clear()
-    home()
-})
-d2.addEventListener('click',()=>{
-    clear()
-    contact()
-})
-d3.addEventListener('click',()=>{
-    clear()
-    menu()
 
+d1.textContent='Home'
+d2.textContent='Contact'
+
+Content.appendChild(d1)
+Content.appendChild(d2)
+Content.appendChild(d3)
+d2.addEventListener('click',()=>{
+    clearContent();
+    contact();
 })
-    Content.appendChild(d1)
-    Content.appendChild(d2)
-    Content.appendChild(d3)
+d1.addEventListener('click',()=>{
+    clearContent();
+    home();
+})
+
+
+
 }
-function clear(){
-    const Content=document.querySelector('#content')
-    const pageContent=document.querySelector('#pageContent')
-    if (pageContent){
-        Content.removeChild(pageContent)}
+function clearContent(){
+    console.log('joel')
+    var pageContent = document.querySelector('.page-content'); // Correct class selector
+    if (pageContent)
+    {
+        Content.removeChild(pageContent)
+    }
 }
+
 
 export default tabs

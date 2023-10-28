@@ -1,19 +1,23 @@
 const menu=()=>{
     var content=document.querySelector("#content")
-    var menu=document.createElement('div')
+    const d3=document.createElement("div")
+    d3.setAttribute('id','menu-btn')
     const h1=document.createElement('h1')
-    h1.innerContent="Choose your platter"
+    h1.textContent="Choose your platter"
     var menuList=document.createElement('ul')
     var menuItem1=document.createElement('li')
     var menuItem2=document.createElement('li')
     var menuItem3=document.createElement('li')
-    menuItem1.innerContent='Barbeque Chicken'
-    menuItem2.innerContent='Chicken Mjestic'
-    menuItem3.innerContent='Chicken Biryani'
+    menuItem1.textContent='Barbeque Chicken'
+    menuItem2.textContent='Chicken Mjestic'
+    menuItem3.textContent='Chicken Biryani'
+    menuList.appendChild(h1)
     menuList.appendChild(menuItem1)
     menuList.appendChild(menuItem2)
     menuList.appendChild(menuItem3)
-    content.appendChild(menuList)
+    d3.appendChild(h1)
+    d3.appendChild(menuList)
+    content.appendChild(d3)
 }
 
 export default menu

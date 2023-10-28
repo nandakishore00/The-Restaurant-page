@@ -1,104 +1,96 @@
-/* Style for the page content container */
-.page-content {
-    text-align: center;
-    padding: 20px;
-}
-
-/* Style for the image */
-.page-content img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Style for the headline */
-.page-content h1 {
-    font-size: 24px;
-    color: #333;
-}
-
-/* Style for the text */
-.page-content p {
-    font-size: 16px;
-    color: #666;
-}
-
-/* Style for the tab buttons */
-.tab {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    cursor: pointer;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.tab:hover {
-    background-color: #2980b9;
-}
-
-/* Style for the content container */
-#content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-/* Style for the tab button IDs */
-#home-btn {
-    background-color: #e74c3c;
-}
-
-#contact-btn {
-    background-color: #27ae60;
-}
-
-#menu-btn {
-    background-color: #f39c12;
-}
-
-/* Style for the menu container */
-.menu {
-    text-align: center;
-    padding: 20px;
-}
-
-/* Style for the menu title */
-.menu h1 {
-    font-size: 24px;
-    color: #333;
-}
-
-/* Style for the menu items */
-.menu ul {
-    list-style-type: none;
+/* Add styles for the entire page, e.g., background, font, etc. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
     padding: 0;
 }
 
-.menu li {
-    font-size: 18px;
-    color: #666;
-    margin: 10px 0;
-}
-
-/* Style for the menu items on hover */
-.menu li:hover {
-    color: #3498db;
-    cursor: pointer;
-}
-/* Style for the contact form container */
-.contact form {
-    text-align: center;
+/* Define styles for the content container */
+#content {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for input fields and submit button */
-.contact form input {
-    display: block;
+/* Add styles for the buttons */
+#home-btn, #menu-btn, #contact-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#home-btn:hover, #menu-btn:hover, #contact-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Add styles for the menu content */
+#menu-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* Add styles for the home content */
+.page-content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+/* Add styles for the contact form */
+#contact-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -106,15 +98,15 @@
     border-radius: 5px;
 }
 
-.contact form input[type="submit"] {
-    background-color: #3498db;
+input[type="submit"] {
+    background-color: #007bff;
     color: #fff;
-    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-.contact form input[type="submit"]:hover {
-    background-color: #2980b9;
+input[type="submit"]:hover {
+    background-color: #0056b3;
 }
-
-/* Additional styling for form elements (e.g., labels) can be added here */

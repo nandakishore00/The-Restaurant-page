@@ -1,6 +1,7 @@
 const contact=()=>{
     var content=document.querySelector("#content")
     const form= document.createElement("form")
+    form.setAttribute('id','contact-btn')
     
     const nameInput = document.createElement("input");
     nameInput.type = "text"; // Set the input type to "text"
