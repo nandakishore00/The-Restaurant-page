@@ -1,0 +1,1 @@
+(()=>{var e;console.log("lofasd"),(e=document.getElementById("content")).innerHTML="hello jalepenos",document.appendChild(e)})();
