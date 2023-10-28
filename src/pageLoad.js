@@ -1,6 +1,7 @@
-// import home from './home'
+import home from './home'
 import tabs from './tabs'
 function pageLoad(){
-    tabs()
+    home();
+    tabs();
 }
 export default pageLoad

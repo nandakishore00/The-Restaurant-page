@@ -21,6 +21,6 @@ const contact=()=>{
     form.appendChild(nameInput)
     form.appendChild(Number)
     form.appendChild(Mail)
-    content.appendChilc(form)
+    content.appendChild(form)
 }
 export default contact

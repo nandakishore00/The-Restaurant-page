@@ -1,4 +1,5 @@
-import loadPage from './pageLoad'
+import pageLoad from './pageLoad'
 import tabs from './tabs'
+pageLoad();
 tabs();
-loadPage();
+

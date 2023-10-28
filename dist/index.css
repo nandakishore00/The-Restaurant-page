@@ -1,8 +1,120 @@
-.buttons{
-   background-color: rgb(255, 89, 0);
+/* Style for the page content container */
+.page-content {
+    text-align: center;
+    padding: 20px;
 }
-button{
-    padding: 3px 5px;
-        border: 1px solid #000;
-        background: #eee;
+
+/* Style for the image */
+.page-content img {
+    max-width: 100%;
+    height: auto;
 }
+
+/* Style for the headline */
+.page-content h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style for the text */
+.page-content p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Style for the tab buttons */
+.tab {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: #2980b9;
+}
+
+/* Style for the content container */
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Style for the tab button IDs */
+#home-btn {
+    background-color: #e74c3c;
+}
+
+#contact-btn {
+    background-color: #27ae60;
+}
+
+#menu-btn {
+    background-color: #f39c12;
+}
+
+/* Style for the menu container */
+.menu {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the menu title */
+.menu h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style for the menu items */
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Style for the menu items on hover */
+.menu li:hover {
+    color: #3498db;
+    cursor: pointer;
+}
+/* Style for the contact form container */
+.contact form {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for input fields and submit button */
+.contact form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Additional styling for form elements (e.g., labels) can be added here */

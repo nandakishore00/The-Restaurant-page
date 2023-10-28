@@ -5,16 +5,16 @@ const home=()=>{
 
     const image=document.createElement('img')
     image.src="https://i.pinimg.com/736x/56/25/18/562518009aa9a63d6c490a254ee53796.jpg"
-    pageContent.addChild(image)
+    pageContent.appendChild(image)
 
 
     const headline=document.createElement('h1')
     headline.innerHTML="Indian Aesthetics"
-    pageContent.addChild('headline')
+    pageContent.appendChild(headline)
 
     const text=document.createElement('p')
     text.innerHTML="World's famous Hyderbadi biryani"
-    pageContent.addChild('text')
-    content.appendChild('pageContent')
+    pageContent.appendChild(text)
+    content.appendChild(pageContent)
 }
 export default home

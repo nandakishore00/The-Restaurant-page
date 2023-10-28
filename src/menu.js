@@ -1,12 +1,12 @@
 const menu=()=>{
-    content=document.querySelector("#content")
-    menu=document.createElement('div')
-    h1=menu.createElement('h1')
+    var content=document.querySelector("#content")
+    var menu=document.createElement('div')
+    const h1=document.createElement('h1')
     h1.innerContent="Choose your platter"
-    menuList=document.createElement('ul')
-    menuItem1=document.createElement('li')
-    nemuItem2=document.createElement('li')
-    menuItem3=document.createElement('li')
+    var menuList=document.createElement('ul')
+    var menuItem1=document.createElement('li')
+    var menuItem2=document.createElement('li')
+    var menuItem3=document.createElement('li')
     menuItem1.innerContent='Barbeque Chicken'
     menuItem2.innerContent='Chicken Mjestic'
     menuItem3.innerContent='Chicken Biryani'
