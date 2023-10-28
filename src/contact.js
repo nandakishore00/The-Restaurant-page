@@ -13,8 +13,14 @@ const contact=()=>{
     const Mail = document.createElement("input");
     Mail.type = "email"; // Set the input type to "text"
     nameInput.placeholder = "Enter your mail-id";
+
+    const Submit =document.createElement('input');
+    Submit.type='submit';
+    Submit.value="Submit";
+    form.appendChild(Submit)
     form.appendChild(nameInput)
     form.appendChild(Number)
     form.appendChild(Mail)
     content.appendChilc(form)
 }
+export default contact

@@ -1,10 +1,8 @@
-import home from './home'
+// import home from './home'
+import tabs from './tabs'
+import
 function pageLoad(){
-    home()
-    contact()
-    menu()
     tabs()
-
 }
 
 export default pageLoad
