@@ -15,10 +15,6 @@ d3.cla/sList.add('tab')
 d1.innerContent='Home'
 d2.innerContent='Contact'
 d3.innerContent='Menu'
-Content.appendChild(d1)
-Content.appendChild(d2)
-Content.appendChild(d3)
-
 d1.addEventListener('click',()=>{
     clear()
     home()
@@ -31,11 +27,12 @@ d3.addEventListener('click',()=>{
     clear()
     menu()})
 }
-
-
 function clear(){
     const Content=document.querySelector('#content')
     const pageContent=document.querySelector("#pageContent")
     Content.remove(pageContent)
 }
+Content.appendChild(d1)
+Content.appendChild(d2)
+Content.appendChild(d3)
 export default tabs
