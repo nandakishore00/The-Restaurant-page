@@ -7,7 +7,8 @@ generateHome()
 
 // Dynamic page reloading
 function clearContent() {
-    content.innerHTML = ''
+    const content=document.querySelector('#content')
+    content.innerHTML=''
 }
 
 const content = document.querySelector('#content')

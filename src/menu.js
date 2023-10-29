@@ -1,7 +1,9 @@
 const menu=()=>{
     var content=document.querySelector("#content")
+    
     const d3=document.createElement("div")
     d3.setAttribute('id','menu-btn')
+    content.style.backgroundColor="lightblue";
     const h1=document.createElement('h1')
     h1.textContent="Choose your platter"
     var menuList=document.createElement('ul')

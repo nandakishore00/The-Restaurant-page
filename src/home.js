@@ -6,8 +6,6 @@ const home=()=>{
 
     const headline=document.createElement('h1')
     headline.innerHTML="Indian Aesthetics"
-    pageContent.appendChild(headline)
-    
     const image=document.createElement('img')
     image.src="https://i.pinimg.com/736x/56/25/18/562518009aa9a63d6c490a254ee53796.jpg"
     image.alt="Chicken biryani"
